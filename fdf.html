@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="ru" class="no-js">
+  <head>
+  <meta charset="UTF-8">
+  <title>Сurrency Сonverter</title>
+  <!-- <link rel="icon" type="image/png" sizes="32x32" href="img/logo.png"> -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body></body>
+
+  <div class="banner">
+    <div id="d1">
+      <img src="backpack.png">
+    </div>
+    <div id="d3">
+      <div class="div-5">
+        Мы знаем, как закончить <br/>школу за
+        <span style="color: rgba(19, 110, 246, 1)">10 месяцев!</span>
+      </div>
+      <div class="div-6">А потом устроиться на любимую работу</div>
+    </div>
+    <div id="d6">
+      <img src="arrow1.png">
+    </div>
+    <div id="d7">
+      <div class="div-9">Хотите также? Приходите учиться в Хекслет!</div>
+          <div class="div-10">
+            <span style="color: rgba(19, 110, 246, 1)">До 1 сентября</span>
+            оставьте заявку на любую профессию,
+            <br />
+            а мы подарим классные
+            <span style="color: rgba(19, 110, 246, 1)">бонусы</span>
+            для воодушевляющего старта
+          </div>
+    </div>
+    <div id="d12">
+      <img src="arrow2.png">
+    </div>
+    <div id="d13">
+      <div class="div-11">
+        <button class="btn-open" onclick="opden()">
+          А что подарите?
+        </button>
+      </div>
+    </div>
+    <div id="d14">
+      <img src="computer.png">
+    </div>
+  </div>
+
+  <div class="pre-form">
+    <div style="width: 100vw;
+    height: 100vh;
+    background: white;
+    position: absolute;"></div>
+    <div id="form">
+      <div class="want"></div>
+      <div class="text"></div>
+      <div class="text1"></div>
+      <div class="text2"></div>
+      <div class="text3"></div>
+      <div class="mini-text"></div>
+    </div>
+  </div>
+  <script>
+    function opden() {
+      document.getElementById('form').className = 'opened';
+    }
+  </script>
+</body>

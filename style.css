@@ -238,6 +238,7 @@ body {
     border-radius: 5px;
     border: 1px solid rgba(19, 110, 246, 1);
     padding: 15px 80px 15px 22px;
+    
 } 
 input:focus + .inptext {
     outline: none;
@@ -274,10 +275,11 @@ select{
     .inptext {
         transition-duration: 0.3s;
         position: absolute;
-    margin-top: 13px;
-    margin-left: 22px;
-    color: grey;
-    pointer-events: none;
+        margin-top: 13px;
+        margin-left: 22px;
+        color: grey;
+        pointer-events: none;
+        font: 201 14px / 22px Onest, sans-serif;
     }
 
     .arrow {
@@ -286,4 +288,8 @@ select{
         top: -29px;
         left: 224px;
         position: relative;
+    }
+
+    option {
+        font: 201 14px / 22px Onest, sans-serif;
     }
